@@ -20,13 +20,13 @@ Itemset                                       │  Suporte
 {manteiga}                                    |     0.50
 {pão}                                         |     0.80
 {queijo}                                      |     0.40
-{cerveja, pão}                                |     0.20
-{leite, manteiga}                             |     0.30
-{manteiga, pão}                               |     0.50
 {leite, pão}                                  |     0.40
+{manteiga, pão}                               |     0.50
 {pão, queijo}                                 |     0.30
-{leite, queijo}                               |     0.20
 {manteiga, queijo}                            |     0.20
+{leite, queijo}                               |     0.20
+{leite, manteiga}                             |     0.30
+{cerveja, pão}                                |     0.20
 {leite, manteiga, pão}                        |     0.30
 {manteiga, pão, queijo}                       |     0.20
 
