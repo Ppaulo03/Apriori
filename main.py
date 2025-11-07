@@ -29,8 +29,8 @@ def main(
 
 if __name__ == "__main__":
 
-    MIN_SUPPORT = 0.2
-    MIN_CONFIDENCE = 0.9
+    MIN_SUPPORT = 0.4
+    MIN_CONFIDENCE = 0.75
     CSV_PATH = "dataset.csv"
 
     main(min_support=MIN_SUPPORT, min_confidence=MIN_CONFIDENCE, csv_path=CSV_PATH)
