@@ -20,16 +20,17 @@ Itemset                                       │  Suporte
 {manteiga}                                    |     0.50
 {pão}                                         |     0.80
 {queijo}                                      |     0.40
+{leite, queijo}                               |     0.20
 {leite, pão}                                  |     0.40
-{manteiga, pão}                               |     0.50
 {pão, queijo}                                 |     0.30
 {manteiga, queijo}                            |     0.20
-{leite, queijo}                               |     0.20
-{leite, manteiga}                             |     0.30
 {cerveja, pão}                                |     0.20
+{leite, manteiga}                             |     0.30
+{manteiga, pão}                               |     0.50
 {leite, manteiga, pão}                        |     0.30
 {manteiga, pão, queijo}                       |     0.20
 
+Regras de Associação:
 Antecedente               | Consequente               |  Confiança |     Lift |    Suporte
 ------------------------------------------------------------------------------------------
 {manteiga}                │ {pão}                     │       1.00 │     1.25 │     50.00%

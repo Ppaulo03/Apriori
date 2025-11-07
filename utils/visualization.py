@@ -52,7 +52,6 @@ def print_frequent_itemsets(itemsets: list[tuple[frozenset, float]]):
         itens_str = f"{{{', '.join(sorted(items))}}}"
         suporte_str = f"{support:.2f}"
 
-        # remove cores pra alinhar corretamente
         output_print(f"{CYAN}{itens_str:<45}{RESET} | {GREEN}{suporte_str:>8}{RESET}")
     output_print()
 
@@ -62,7 +61,7 @@ def print_rules(rules: list):
         output_print("Nenhuma regra encontrada.")
         return
 
-    # Cabeçalho
+    output_print("Regras de Associação:")
     output_print(
         f"{'Antecedente':<25} | {'Consequente':<25} | {'Confiança':>10} | {'Lift':>8} | {'Suporte':>10}"
     )
